@@ -9,3 +9,16 @@ Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+# EXERCÍCIO 01: Senha Fixa do Laboratório
+
+senha_correta = "2002"
+
+while True:
+    senha = int(input("Digite a senha de acesso: "))
+    if senha == 2002:
+        print("Acesso Permitido")
+        break
+    else:
+        print("Senha Invalida") 
+
+
