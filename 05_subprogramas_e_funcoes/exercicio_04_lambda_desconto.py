@@ -8,3 +8,10 @@ e retorne o valor com 15% de desconto à vista aplicado.
 """
 
 # TODO: Desenvolva a expressão lambda e teste-a abaixo:
+#funçao lambda aplicar 15% de desconto
+desconto = lambda valor: valor * 0.85
+#recena o valor
+valor = float(input("digite o valor do produto R$:"))
+#calcular e mostrar o desconto
+valor_final = desconto(valor)
+print(f"o valor do produto com 15% de desconto é R${valor_final:.2f}")
